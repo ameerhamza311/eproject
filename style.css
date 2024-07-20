@@ -1,0 +1,46 @@
+.nav-link{
+    color: white;
+}
+.nav-item{
+    padding: 0 15px;
+    /* margin: 3px; */
+}
+.nav-item:hover{
+    background-color: lightcoral;
+    border-radius: 7px;
+}
+.list-group-item:hover{
+    font-weight: bolder;
+}
+.ab{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.ab:hover{
+    font-size: larger;
+}
+#nav{
+    position: fixed;
+    display: flex;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    z-index: 1000;
+}
+#nav2{
+    position: fixed;
+    display: flex;
+    top: 95px;
+    right: 0;
+    left: 0;
+    box-shadow: 0 12px 10px 0 #0a0a0a;
+    z-index: 1000;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+.qw:hover{
+    transform: scale(1.1);
+}

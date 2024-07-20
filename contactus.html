@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <style>
+        form {
+            text-align: center;
+        }
+
+        .paragraph {
+            width: 650px;
+            margin-left: 350px;
+            margin-top: 50px;
+           
+        }
+
+        .firstn {
+            width: 300px;
+            height: 40px;
+            border-radius: 10px;
+            border-color: rgb(180, 179, 180);
+            margin-top: 30px;
+        }
+
+        .lname {
+            width: 300px;
+            height: 40px;
+            border-radius: 10px;
+            border-color: rgb(180, 179, 180);
+        }
+
+        .email {
+            width: 600px;
+            height: 40px;
+            margin-top: 20px;
+            border-radius: 10px;
+            border-color: rgb(180, 179, 180);
+
+        }
+
+        .area {
+            width: 600px;
+            height: 300px;
+            margin-top: 10px;
+            border-radius: 10px;
+            border-color: rgb(180, 179, 180);
+
+        }
+
+        h4 {
+            margin-top: 40px;
+        }
+
+        button {
+            margin-top: 20px;
+            width: 100px;
+            border-radius: 10px;
+            border-color: rgb(180, 179, 180);
+
+        }
+
+        body {
+            background-color: #f4f4f4;
+        }
+        iframe{
+            margin-top: 40px;
+        }
+        .mini{
+            display: inline;
+            margin-top:90px ;
+        }
+        .main{
+            display: flex;
+        }
+        iframe{
+            width: 750px;
+            height: 400px;
+        }
+        .adres{
+            margin-left: 20px;
+            margin-bottom: 40px;
+        }
+        .phon{
+            margin-left: 20px;
+            margin-bottom: 40px
+        }
+        .email1{
+            margin-left: 20px;
+            margin-bottom: 40px
+        }
+        .bolb{
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+    .f:hover{transform: scale(1.2);}</style>
+</head>
+
+<body>
+    <nav id="nav" class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="haircare logo.webp"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+         
+        
+      </div> 
+    </nav>
+    <nav id="nav2" class="navbar navbar-expand-lg bg-dark">
+        
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span style="background-color: white;" class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item ms-5">
+                <a class="nav-link" href="INDEX.html">HOME</a>
+              </li>
+             <li class="nav-item">
+                <a class="nav-link" aria-controls="offcanvasExample" data-bs-toggle="offcanvas" href="#hairloss">HAIR PROBLEMS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-controls="offcanvasExample" data-bs-toggle="offcanvas" href="#haircareequipments">HAIR CARE EQUIPMENTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#haircareproduct" aria-controls="offcanvasExample" data-bs-toggle="offcanvas">HAIR CARE PRODUCTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="compare.html">COMPARE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="latestdevelopment.html">LATEST DEVELOPMENTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- OFFCANVAS -->
+              <!-- 1 -->
+              <div data-bs-scroll="true" data-bs-backdrop="false" style="color: white;" class="offcanvas offcanvas-start bg-secondary" tabindex="-1" id="hairloss" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h2 class="offcanvas-title" id="offcanvasExampleLabel">HAIR PROBLEMS</h2>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div class="list-group">
+                    <a href="hairloss.html" class="list-group-item list-group-item-action">HAIR LOSS</a>
+                    <a href="graying.html" class="list-group-item list-group-item-action">GRAYING</a>
+                    <a href="dandruff.html" class="list-group-item list-group-item-action">DANDRUFF</a>
+                    <a href="baldness.html" class="list-group-item list-group-item-action">PREMATURE BALDNESS</a>
+                    <a href="hormonalissues.html" class="list-group-item list-group-item-action">HAIRFALL DUE TO HORMONAL ISSUES</a>
+                  </div>
+                </div>
+                <div class="offcanvas-footer">
+                  <button class="btn btn-danger float-end me-5 mb-4" data-bs-dismiss="offcanvas">CLOSE</button>
+                </div>
+              </div>
+        
+                        <!-- 2 -->
+              <div data-bs-scroll="true" data-bs-backdrop="false" style="color: white;" class="offcanvas offcanvas-start bg-secondary" tabindex="-1" id="haircareequipments" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h2 class="offcanvas-title" id="offcanvasExampleLabel">HAIR CARE EQUIPMENTS</h2>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div class="list-group">
+                    <a href="dryers.html" class="list-group-item list-group-item-action">DRYERS</a>
+                    <a href="straightner.html" class="list-group-item list-group-item-action">STRAIGHTNERS</a>
+                    <a href="steamers.html" class="list-group-item list-group-item-action">STEAMERS</a>
+                    <a href="massage.html" class="list-group-item list-group-item-action">MASSAGERS</a>
+                    <a href="spacap.html" class="list-group-item list-group-item-action">SPA CAPS</a>
+                  </div>
+                </div>
+                <div class="offcanvas-footer">
+                  <button class="btn btn-danger float-end me-5 mb-4" data-bs-dismiss="offcanvas">CLOSE</button>
+                </div>
+              </div>
+        
+                 <!-- 3 -->
+              <div data-bs-scroll="true" data-bs-backdrop="false" style="color: white;" class="offcanvas offcanvas-start bg-secondary" tabindex="-1" id="haircareproduct" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h2 class="offcanvas-title" id="offcanvasExampleLabel">HAIR CARE EQUIPMENTS</h2>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <h5 >BRANDS</h5>
+                  <div class="list-group"> 
+                    <a href="AMIKA.html" href="#" class="list-group-item list-group-item-action">AMIKA</a>
+                    <a href="catwalk.html" href="#" class="list-group-item list-group-item-action">CATWALK</a>
+                    <a href="colorwow.html" href="#" class="list-group-item list-group-item-action">COLOR WOW</a>
+                    <a href="joico.html" href="#" class="list-group-item list-group-item-action">JOICO</a>
+                    <a href="paulmichell.html" href="#" class="list-group-item list-group-item-action">PAUL MITCHELL</a>
+                    <a href="wood's.html" href="#" class="list-group-item list-group-item-action">WOODY'S</a>
+                  </div>
+                </div>
+                <div class="offcanvas-footer">
+                  <button class="btn btn-danger float-end me-5 mb-4" data-bs-dismiss="offcanvas">CLOSE</button>
+                </div>
+              </div>
+                    
+                <!-- CONTENT -->
+
+
+    <form style="margin-top: 170px;">
+        <div class="bolb">
+        <h1>CONTACT US</h1>
+        <hr>
+    </div>
+        <p class="paragraph">Need help? Have a question? Check out our FAQs! For anything not answered, to get
+            personalized help, product
+            consultations, or to just say hello, send us an email at hello@haircare.com or fill out the form below.
+        </p>
+        <div class="container">
+          <form id="contactForm">
+              <!-- <h2>Contact Us</h2> -->
+              <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input style="width: 350px;" type="text" id="name" name="name" required>
+                  <span class="error" id="nameError"></span>
+              </div>
+              <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input style="width: 350px;" type="email" id="email" name="email" required>
+                  <span class="error" id="emailError"></span>
+              </div>
+              <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea style="width: 350px;" id="message" name="message" required></textarea>
+                  <span class="error" id="messageError"></span>
+              </div>
+              <button type="submit">Submit</button>
+          </form>
+        </div>
+        
+        <style>
+        /* body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        }
+         */
+        .container {
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        max-width: 400px;
+        width: 100%;
+        
+        }
+        
+        h2 {
+        margin-bottom: 20px;
+        }
+        
+        .form-group {
+        margin-bottom: 15px;
+        }
+        
+        label {
+        display: block;
+        margin-bottom: 5px;
+        }
+        
+        input, textarea {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        }
+        
+        button {
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        border-radius: 4px;
+        }
+        
+        button:hover {
+        background-color: #0056b3;
+        }
+        
+        .error {
+        color: red;
+        font-size: 0.9em;
+        display: none;
+        }
+        </style>
+        <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        
+        // Clear previous errors
+        document.getElementById('nameError').style.display = 'none';
+        document.getElementById('emailError').style.display = 'none';
+        document.getElementById('messageError').style.display = 'none';
+        
+        // Get form values
+        let name = document.getElementById('name').value.trim();
+        let email = document.getElementById('email').value.trim();
+        let message = document.getElementById('message').value.trim();
+        
+        // Regular expression for email validation
+        let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        
+        let isValid = true;
+        
+        // Validate name
+        if (name === '') {
+          document.getElementById('nameError').textContent = 'Name is required.';
+          document.getElementById('nameError').style.display = 'block';
+          isValid = false;
+        }
+        
+        // Validate email
+        if (email === '') {
+          document.getElementById('emailError').textContent = 'Email is required.';
+          document.getElementById('emailError').style.display = 'block';
+          isValid = false;
+        } else if (!emailRegex.test(email)) {
+          document.getElementById('emailError').textContent = 'Invalid email format.';
+          document.getElementById('emailError').style.display = 'block';
+          isValid = false;
+        }
+        
+        // Validate message
+        if (message === '') {
+          document.getElementById('messageError').textContent = 'Message is required.';
+          document.getElementById('messageError').style.display = 'block';
+          isValid = false;
+        }
+        
+        // If the form is valid, you can proceed with form submission (e.g., AJAX request)
+        if (isValid) {
+          // For demonstration, we just log the form data
+          console.log({ name, email, message });
+          alert('Form submitted successfully!');
+          document.getElementById('contactForm').reset();
+        }
+        });
+        </script>
+
+
+
+
+
+<div class="main">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14472.545537538212!2d67.01493859291075!3d24.92742337770941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f90157042d3%3A0x93d609e8bec9a880!2sAptech%20Computer%20Education%20North%20Nazimabad%20Center!5e0!3m2!1sen!2s!4v1717183491113!5m2!1sen!2s"
+        width="800" height="600" style="border: 2px solid; border-radius: 7px;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="mini">
+        <div class="adres">
+        <h5>Adress</h5>
+        <p>SD-1, Block A North Nazimabad Town, Karachi, 74700, Pakistan</p>
+        </div>
+
+        <div class="phon">
+        <h5>Phone</h5>
+        <p>000-123-456-789</p>
+        </div>
+
+         <div class="email1">
+        <h5>Email</h5>
+        <p>ag9452259@gmail.com</p>
+        <p>afridi57123@gmail.com</p>
+        </div>
+
+    </div>
+</div>   <br>
+
+<footer style="margin: 0;">
+    <div style="margin: 40px;" class="container2">
+      <div class="row">
+         <div class="col-10 col-md-3
+ col-sm-6">
+              <h6 class="fh">Popular search</h6>
+              <ul class="footer-links">
+                <li><a class="nav-link" href="new.html">Shampoo</a></li>
+                <li><a class="nav-link" href="new.html">Conditioner</a></li>
+                <li><a class="nav-link" href="new.html">Hair Spray</a></li>
+                <li><a class="nav-link" href="new.html">Hair Cream</a></li>
+              </ul>
+          <br>
+          <h6 class="fh">About us</h6>
+          <ul class="footer-links">
+            <li><a class="nav-link" href="INDEX.html">Home</a></li>
+            <li><a class="nav-link" href="compare.html">Compare</a></li>
+            <li><a class="nav-link" href="contact.html">Contact information</a></li>
+            <li><a class="nav-link" href="new.html">All Products</a></li>
+          </ul>
+        </div>
+          <br><br>
+  
+        <div class="col-10 col-md-3 col-sm-6">
+              <h6 class="fh">Popular categories</h6>
+              <ul class="footer-links">
+                <li><a class="nav-link" aria-controls="offcanvasExample" data-bs-toggle="offcanvas" href="#hairloss">Hair Problems</a></li>
+                <li><a class="nav-link" aria-controls="offcanvasExample" data-bs-toggle="offcanvas" href="#haircareequipments">Hair Care Equipments</a></li>
+                <li><a class="nav-link" href="#haircareproduct" aria-controls="offcanvasExample" data-bs-toggle="offcanvas">Hair Care Products</a></li>
+                <li><a class="nav-link" href="latestdevelopment.html">Latest Developments</a></li>
+              </ul>
+          <br>
+          <h6 class="fh">Follow us on :</h6>
+          <ul class="footer-links">
+            <li class="if"><a href="https://www.facebook.com/"><img style="width: 45px;" src="facebook-removebg-preview.png" alt=""></a></li>
+            <li class="if"><a href="https://www.google.com/search?q=www.instagram.login&oq=www.ins&gs_lcrp=EgZjaHJvbWUqDQgBEAAYgwEYsQMYgAQyBggAEEUYOTINCAEQABiDARixAxiABDIMCAIQABgUGIcCGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGIAE0gEJMTAwNDZqMGo5qAIIsAIB&sourceid=chrome&ie=UTF-8"><img class="mb-4" style="width: 75px;" src="instagram-removebg-preview.png" alt=""></a></li>
+            <li class="if"><a href="https://www.google.com/search?q=www.twiter+.com&oq=&gs_lcrp=EgZjaHJvbWUqBggCEEUYOzIGCAAQRRg6MgYIARBFGDkyBggCEEUYOzIGCAMQRRg7MgYIBBAFGEAyBggFEAUYLDIICAYQBRgKGCzSAQg1ODMwajBqNKgCCLACAQ&sourceid=chrome&ie=UTF-8"><img class="rounded-pill" style="width: 45px;" src="x.png" alt=""></a></li>
+            <li class="if"><a href="https://www.google.com/search?q=www.tiktok.login&oq=www.tik&gs_lcrp=EgZjaHJvbWUqBwgDEAAYgAQyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIMCAUQABgUGIcCGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGIAEMgcICRAAGIAE0gEJMTIzMDFqMGo5qAIAsAIA&sourceid=chrome&ie=UTF-8"><img class="rounded-pill ms-1" style="width: 50px;" src="tiktok.png" alt=""></a></li>
+          </ul>
+        </div> 
+        <br><br>
+  
+        
+        <div class="col-12 col-md-6 col-sm-12">
+              <a href="dryers.html"><img class="f rounded" src="d1.jpg"></a>
+              <a href="straightner.html"><img class="f rounded" src="d2.jpg"></a>
+              <a href="spacap.html"><img class="f rounded" src="d3.jpg"></a>
+              <a href="steamers.html"><img class="f rounded" src="d4.jpg"></a>
+              <a href="new.html"><img class="f rounded" src="d5.jpg"></a>
+            </div>              
+        </div>
+        <br><br>
+        <hr>
+        <p class="text-center">© 2024 HAIR CARE .COM &nbsp;  . All Rights Reserved.</p>
+    </div>
+  </footer>
+  <style>
+    footer {
+  background-color: #131414;
+  padding: 2px 0;
+  color: #fcfbfb;
+  text-align: center;
+  }
+  .footer-links {
+  list-style: none;
+  padding: 0;
+  line-height: 10px;
+  margin: 20px;
+  }
+  .footer-links li {
+  margin-bottom: 12px;
+  }
+  .footer-links a {
+  color: #fdfdfd;
+  text-decoration: none;
+  }
+  .footer-links a:hover { transform: scale(1.2
+); 
+  color: #007bff;
+  }
+  .if{
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  font-size: 20px;
+  }
+  
+  .fh{
+  font-size: 20px;
+  color: lightcoral;
+  margin: 10px;
+  }
+  
+  .f{
+  width: 140px;
+  height: 100px;
+  margin: 15px;
+  }
+  .f:hover{transform: scale(1.2);}</style>
+
+
+
+
+
+
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
